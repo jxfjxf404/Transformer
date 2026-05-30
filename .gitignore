@@ -29,24 +29,13 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Model checkpoints (large files)
-*.pth
-
-# Training outputs
-*.json
-!requirements.txt
-!configs/*.json
-
-# Figures
-*.png
-
-# Data files (too large for GitHub)
-data/multi30k/
+# Training outputs - allow these for GitHub upload
+# *.json files are now allowed
+# *.png files are now allowed
+# data/multi30k/ is now allowed
 
 # PPT, poster, report (binary/large files)
-PPT/*.pptx
-PPT/*.pdf
-poster/*.pdf
-poster/*.png
-report/*.pdf
-report/*.docx
+# PPT/*.pptx
+# PPT/*.pdf
+# poster/*.pdf
+# poster/*.png
