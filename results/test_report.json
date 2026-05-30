@@ -1,0 +1,209 @@
+{
+  "summary": {
+    "total_experiments": 3,
+    "best_overall": {
+      "d_model": 128,
+      "n_heads": 4,
+      "n_layers": 2,
+      "batch_size": 8,
+      "lr": 0.001,
+      "dropout": 0.1,
+      "epochs": 3,
+      "final_train_loss": 3.2,
+      "final_val_loss": 3.5,
+      "final_val_acc": 0.25,
+      "final_val_ppl": 33.2
+    },
+    "average_metrics": {
+      "final_train_loss": 3.5,
+      "final_val_loss": 3.766666666666667,
+      "final_val_acc": 0.19999999999999998,
+      "final_val_ppl": 44.166666666666664
+    }
+  },
+  "hyperparameter_analysis": {
+    "d_model": {
+      "values": [
+        64,
+        128
+      ],
+      "correlations": {
+        "final_train_loss": -0.8660254037844387,
+        "final_val_loss": -0.9176629354822469,
+        "final_val_acc": 0.8660254037844386,
+        "final_val_ppl": -0.8867827887988665
+      },
+      "best": {
+        "value": 128,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    },
+    "n_heads": {
+      "values": [
+        2,
+        4
+      ],
+      "correlations": {
+        "final_train_loss": -0.8660254037844387,
+        "final_val_loss": -0.8029550685469664,
+        "final_val_acc": 0.8660254037844389,
+        "final_val_ppl": -0.843656574146034
+      },
+      "best": {
+        "value": 4,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    },
+    "n_layers": {
+      "values": [
+        2
+      ],
+      "correlations": {
+        "final_train_loss": NaN,
+        "final_val_loss": NaN,
+        "final_val_acc": NaN,
+        "final_val_ppl": NaN
+      },
+      "best": {
+        "value": 2,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    },
+    "batch_size": {
+      "values": [
+        8
+      ],
+      "correlations": {
+        "final_train_loss": NaN,
+        "final_val_loss": NaN,
+        "final_val_acc": NaN,
+        "final_val_ppl": NaN
+      },
+      "best": {
+        "value": 8,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    },
+    "lr": {
+      "values": [
+        0.001
+      ],
+      "correlations": {
+        "final_train_loss": NaN,
+        "final_val_loss": NaN,
+        "final_val_acc": NaN,
+        "final_val_ppl": NaN
+      },
+      "best": {
+        "value": 0.001,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    },
+    "dropout": {
+      "values": [
+        0.1
+      ],
+      "correlations": {
+        "final_train_loss": 0.0,
+        "final_val_loss": 2.1612234819214378e-15,
+        "final_val_acc": -4.532466518368395e-16,
+        "final_val_ppl": -5.416971551839192e-16
+      },
+      "best": {
+        "value": 0.1,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    },
+    "epochs": {
+      "values": [
+        3
+      ],
+      "correlations": {
+        "final_train_loss": NaN,
+        "final_val_loss": NaN,
+        "final_val_acc": NaN,
+        "final_val_ppl": NaN
+      },
+      "best": {
+        "value": 3,
+        "metrics": {
+          "final_train_loss": 3.2,
+          "final_val_loss": 3.5,
+          "final_val_acc": 0.25,
+          "final_val_ppl": 33.2
+        }
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "d_model": 64,
+      "n_heads": 4,
+      "n_layers": 2,
+      "batch_size": 8,
+      "lr": 0.001,
+      "dropout": 0.1,
+      "epochs": 3,
+      "final_train_loss": 3.5,
+      "final_val_loss": 3.8,
+      "final_val_acc": 0.2,
+      "final_val_ppl": 44.7
+    },
+    {
+      "d_model": 128,
+      "n_heads": 4,
+      "n_layers": 2,
+      "batch_size": 8,
+      "lr": 0.001,
+      "dropout": 0.1,
+      "epochs": 3,
+      "final_train_loss": 3.2,
+      "final_val_loss": 3.5,
+      "final_val_acc": 0.25,
+      "final_val_ppl": 33.2
+    },
+    {
+      "d_model": 64,
+      "n_heads": 2,
+      "n_layers": 2,
+      "batch_size": 8,
+      "lr": 0.001,
+      "dropout": 0.1,
+      "epochs": 3,
+      "final_train_loss": 3.8,
+      "final_val_loss": 4.0,
+      "final_val_acc": 0.15,
+      "final_val_ppl": 54.6
+    }
+  ]
+}
