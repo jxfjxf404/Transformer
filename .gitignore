@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (large files)
+*.pth
+
+# Training outputs
+*.json
+!requirements.txt
+!configs/*.json
+
+# Figures
+*.png
+
+# Data files (too large for GitHub)
+data/multi30k/
+
+# PPT, poster, report (binary/large files)
+PPT/*.pptx
+PPT/*.pdf
+poster/*.pdf
+poster/*.png
+report/*.pdf
+report/*.docx

@@ -1,0 +1,29 @@
+{
+  "model": {
+    "d_model": 64,
+    "n_heads": 4,
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 2,
+    "d_ff": 256,
+    "max_len": 50,
+    "dropout": 0.1,
+    "share_embeddings": false
+  },
+  "training": {
+    "num_epochs": 10,
+    "batch_size": 8,
+    "learning_rate": 1e-3,
+    "warmup_steps": 400,
+    "clip_grad_norm": 1.0,
+    "label_smoothing": 0.0,
+    "log_interval": 10,
+    "seed": 42
+  },
+  "data": {
+    "dataset": "test_translation",
+    "src_lang": "en",
+    "tgt_lang": "de",
+    "data_dir": "data/test_translation",
+    "max_vocab_size": 1000
+  }
+}
