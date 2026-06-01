@@ -22,9 +22,9 @@
 
 | 姓名 | 学号 | 分工 |
 |------|------|------|
-| 成员A | XXXXXXXX | Transformer 模型实现、训练代码 |
-| 成员B | XXXXXXXX | 数据处理、测试与实验分析 |
-| 成员C | XXXXXXXX | README 文档、PPT/海报/报告 |
+| 成员A | 姬祥发 | Transformer 模型实现、训练代码 |
+| 成员B | 杨骞 | 数据处理、测试与实验分析 |
+| 成员C | 伍哲淼 | README 文档、PPT/海报/报告 |
 
 > 请根据实际小组成员填写。
 
@@ -398,8 +398,6 @@ transformer-from-scratch/
 | PPT 演示文稿 | [PPT/](./PPT/) |
 | 项目海报 | [poster/](./poster/) |
 | 项目报告 | [report/](./report/) |
-
-> 请将对应的 PPT、海报和报告文件放入相应目录中，并在此处更新链接。
 
 ---
 
